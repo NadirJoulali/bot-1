@@ -12487,6 +12487,6 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 
 
 
+  client.login(process.env.BOT_TOKEN);
 
 
-client.login('NDQ3NzkyMjQ2NDk0OTg2MjUw.Der4fw.-9rb4P7wsJGVIDxVhR4dZ8rB_8Q');
