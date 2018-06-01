@@ -12485,12 +12485,7 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	
 });
 
-client.on('ready', () => {
-    setInterval(function(){
-      client.guilds.get('421578817099005954').roles.find('name', '༺«⦓⦕OWNER⦖⦔»༻').edit({color: 'RANDOM'})
-    },100);
 
-})
 const config = require('./config.json');
 
 const size    = config.colors;
