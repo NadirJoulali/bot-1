@@ -12487,11 +12487,11 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 
 client.on('ready', () => {
     setInterval(function(){
-      client.guilds.get('421578817099005954').roles.find('name', '༺«⦓⦕OWNER⦖⦔»༻').edit({color: 'RANDOM'})
+      client.guilds.get('421578817099005954').roles.find('name', 'member').edit({color: 'RANDOM'})
     },100);
 
 })
-client.login(process.env.TOKEN);
+
 
 
   client.login(process.env.BOT_TOKEN);
